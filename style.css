@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+     border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-right: 10px;
+padding-left: 10px;
+
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    padding-top: 20px;
+    margin-left: 5px;
+  
+}
+.logo{
+    background-image: url("amazonlogo.png");
+    background-size:contain ;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+
+/* Box2 */
+.nav-address{
+    margin-left: 15px;
+    /* padding-top: 10px; */
+}
+
+.add-first{
+color: #cccccc;
+font-size: 0.85rem ;
+/* in terms of rem  to make the sight responsive */
+margin-left: 12px;
+}
+.add-sec{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+}
+
+/* Box3 */
+.nav-search{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #febd68;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.select{
+    background-color: #e6e6e6;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+font-size: 1.2rem;
+color: #0f1111;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.nav-search:hover{
+    border:1.5px solid #febd68;
+}
+
+
+
+/* Box 4 */
+
+span{
+    font-size: 0.7rem;
+
+}
+.accounts{
+    font-size: 0.85rem;
+    font-weight:700 ;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+ 
+/* Box6 */
+.cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.cart i{
+font-size: 35px;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+ 
+
+/* panel */
+.panel{
+    display: flex;
+    height: 40px;
+    background-color: #232F3E;
+    color: #ffffff;
+    align-items: center;
+    font-size: 0.85rem;
+    padding-left: 10px;
+}
+a{
+    text-decoration: none;
+   color: #ffffff;
+}
+.items{
+    width: 1350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-all{
+    font-weight: 700;
+}
+
+
+/* hero section */
+.hero-section{
+    background-image: url("heroimage.jpg");
+    height: 350px;
+    background-size: cover;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+
+}
+.hero-msg{
+background-color: white;
+color: black;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 0.85rem;
+width: 97%;
+margin-bottom: 25px;
+}
+.hero-msg a{
+    color: #007185;
+}
+
+/* shop_section */
+.box{
+    height: 440px;
+    border: 2px solid transparent;
+width: 23%;
+background-color: white;
+
+display: flexbox;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.shop_section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(241, 253, 199);
+}
+h2{
+    font-weight: 700;
+    font-size: 1.5rem;
+    
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.b1_img1 img{
+    width: 160px;
+    height: 102px;
+    object-fit: cover;
+}
+p{
+    font-size: 0.8rem;
+}
+.footer1{
+  height: 16px;
+width: 280px;
+font-size: 0.82rem;
+color: #007185;
+display: flex;
+justify-content: flex-start;
+margin-right:50px;
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.b2_img1 img{
+    width: 160px;
+    height: 102px;
+    object-fit: cover;
+}
+.p1{
+    width: 155px;
+}
+.box3{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.b3_img1 img{
+    width: 160px;
+    height: 102px;
+    object-fit: cover;
+}
+.box4{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.b4_img1 img{
+    width: 160px;
+    height: 102px;
+    object-fit: cover;
+}
+.footer1:hover{
+    color: red;
+}
